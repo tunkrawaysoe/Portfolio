@@ -2,6 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  background: linear-gradient(135deg, rgba(0, 184, 212, 0.7), rgba(255, 255, 255, 0.8));
   color: #333;
-}
+  min-height: 100vh; 

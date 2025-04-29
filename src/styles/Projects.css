@@ -1,0 +1,92 @@
+/* Projects Page Styles */
+.projects-container {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .projects-container h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: #2c3e50; /* Darker text color for heading */
+  }
+  
+  .projects-container ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  /* Card Styles */
+  .project-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+    border: 1px solid #ddd; /* Light border for better separation */
+    display: block; /* Ensure each card is displayed on a new line */
+    width: 100%; /* Take up the full width of the container */
+    margin-bottom: 2rem; /* Add space between each card */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #2c3e50; /* Darker text color for titles */
+  }
+  
+  .project-card p {
+    font-size: 1.1rem;
+    color: #34495e;
+    line-height: 1.8; /* More space between lines for better readability */
+    margin-bottom: 1rem; /* Space below the paragraph */
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .projects-container h1 {
+      font-size: 2rem;
+    }
+  
+    .project-card h3 {
+      font-size: 1.5rem;
+    }
+  
+    .project-card p {
+      font-size: 1rem;
+    }
+  
+    .project-card {
+      padding: 1.5rem; /* Reduce padding on smaller screens */
+      margin-bottom: 1.5rem; /* Less space between cards on mobile */
+    }
+  }
+  
+  /* Optional: Further adjustment for very small devices (portrait phones) */
+  @media (max-width: 480px) {
+    .projects-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .project-card h3 {
+      font-size: 1.4rem;
+    }
+  
+    .project-card p {
+      font-size: 0.9rem;
+    }
+    .project-card {
+        margin: 0 auto;
+    }
+    
+  }
+  
