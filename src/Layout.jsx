@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      <div style={{ paddingTop: "4rem" }}>
+      <div>
         <Outlet /> {/* This renders the child routes */}
       </div>
       <Footer/>
