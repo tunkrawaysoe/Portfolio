@@ -6,9 +6,10 @@
 }
 
 .projects-container h1 {
-  text-align:left;
-  margin-bottom: 2.5rem;
-  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   color: black;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.05);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -33,22 +34,21 @@
 }
 
 .project-card h3 {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  font-weight: bold;
 }
 
 .project-card .description {
   font-size: 1.05rem;
   line-height: 1.7;
-  color: #444;
+  color:black;
   margin-bottom: 1rem;
   text-align: justify;
 }
 
 .project-card .tech {
   font-size: 0.95rem;
-
 }
 
 /* Responsive styling */
@@ -71,5 +71,29 @@
 
   .project-card .tech {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-container h1 {
+    font-size: 1.1rem; /* Slightly larger for mobile */
+    margin-bottom: 0.7rem;
+    padding: 0 0.2rem;
+  }
+
+  .project-card {
+    padding: 1rem; /* Reduce padding for small screens */
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-card .description {
+    font-size:small /* Adjust text size for mobile */
+  }
+
+  .project-card .tech {
+    font-size: 0.8rem; /* Adjust tech font size */
   }
 }

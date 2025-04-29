@@ -10,7 +10,6 @@ const Footer = () => {
 const footerStyle = {
   
   color: "black",
-  textAlign: "center",
   padding: "1rem",
 
 };

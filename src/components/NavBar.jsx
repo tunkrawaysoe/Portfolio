@@ -46,8 +46,8 @@ const Navbar = () => {
           {/* Mobile menu */}
           {isMenuOpen && (
             <div className="mobile-menu">
-              <Link to="/projects" className="mobile-link">Projects</Link>
-              <Link to="/contact" className="mobile-link">Contact</Link>
+              <Link to="/projects" className="mobile-link" onClick={toggleMenu}>Projects</Link>
+              <Link to="/contact" className="mobile-link" onClick={toggleMenu}>Contact</Link>
             </div>
           )}
         </div>
